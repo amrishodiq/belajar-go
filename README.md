@@ -10,7 +10,6 @@
 2. Tambahkan Environment Variable GOPATH dengan nilai D:\GoWorks.
 3. Buat direktori D:\GoWorks\src\github.com\amrishodiq\hello. Ganti amrishodiq dengan username github Anda.
 4. Kemudian tulis sebuah file bernama hello.go di dalam direktori tersebut. Isi file tersebut dengan baris-bari berikut:
-
 ```
 package main
 
@@ -22,14 +21,12 @@ func main() {
 ```
 
 5. Compile file baru Anda, hello.go, dengan perintah berikut
-
 ```
 go install github.com/amrishodiq/hello
 ```
 Tentu Anda harus mengganti amrishodiq dengan username Anda sendiri.
 
 6. Kemudian, dengan DOS prompt, masuklah ke direktori D:\GoWorks. Cek di dalam direktori tersebut, jika semua lancar maka seharusnya ada direktori bin di dalam nya. Kemudian jalankan perintah ini (ketikkan teks setelah tanda > saja):
-
 ```
 D:\GoWorks>.\bin\hello
 ```
@@ -42,7 +39,6 @@ Saya paham Anda akan bertanya-tanya kenapa kita harus membuat direktori dengan n
 
 1. Buat satu file bernama variabel.go tepat di bawah direktori G:\GoWorks\.
 2. Isi dengan kode program berikut:
-
 ```
 package main
 
@@ -57,11 +53,10 @@ func main() {
 ```
 
 3. Kemudian jalankan perintah berikut
-
 ```
 D:\GoWorks>go run variabel.go
 ```
 
 4. Perhatikan hasilnya! Anda sudah mencoba bagaimana mendeklarasikan variabel dan menampilkannya dengan Println.
- 
+Ini adalah contoh sangat sederhana bagaimana menulis program Go. 
 
