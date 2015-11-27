@@ -39,24 +39,32 @@ Saya paham Anda akan bertanya-tanya kenapa kita harus membuat direktori dengan n
 
 1. Buat satu file bernama variabel.go tepat di bawah direktori G:\GoWorks\.
 2. Isi dengan kode program berikut:
-```
-package main
+	```
+	package main
 
-import "fmt"
-
-func main() {
-	var nama string = "Amri Shodiq"
-	var umur int = 35
-	var beratbadan float64 = 70.15
-    fmt.Println(nama, umur, beratbadan)
-}
-```
+	import "fmt"
+	
+	func main() {
+		var nama string = "Amri Shodiq"
+		var umur int = 35
+		var beratbadan float64 = 70.15
+	    fmt.Println(nama, umur, beratbadan)
+	}
+	```
 
 3. Kemudian jalankan perintah berikut
-```
-D:\GoWorks>go run variabel.go
-```
+	```
+	D:\GoWorks>go run variabel.go
+	```
 
 4. Perhatikan hasilnya! Anda sudah mencoba bagaimana mendeklarasikan variabel dan menampilkannya dengan Println.
 Ini adalah contoh sangat sederhana bagaimana menulis program Go. 
+5. Tapi dengan cara 'go run ...' Anda tidak mendapatkan file executable. Lalu bagaimana mendapatkan file executable?
+6. Buat direktori variabel di bawah D:\GoWorks\, kemudian pindahkan file variabel.go ke dalam direktori D:\GoWorks\variabel\.
+7. Sampai saat ini Anda memiliki file D:\GoWorks\variabel\variabel.go.
+8. Compile dengan cara berikut:
+	```
+	D:\GoWorks>go install variabel
+	```
+9. Sampai tahap ini, Anda sudah dapat file D:\GoWorks\bin\variabel.exe.
 
