@@ -46,8 +46,8 @@ Saya paham Anda akan bertanya-tanya kenapa kita harus membuat direktori dengan n
 	
 	func main() {
 		var nama string = "Amri Shodiq"
-		var umur int = 35
-		var beratbadan float64 = 70.15
+		var umur int = 18
+		var beratbadan float64 = 55
 	    fmt.Println(nama, umur, beratbadan)
 	}
 	```
