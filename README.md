@@ -37,4 +37,31 @@ D:\GoWorks>.\bin\hello
 7. Jika Anda mendapatkan tulisan 'Assalamu 'alaikum, Amri' maka buka halaman LinkedIn Anda, tambahkan skill baru: Go Programming!
 8. Selamat, Anda bisa mengklaim diri Anda sebagai Go Programmer!
  
+## Contoh Sederhana
+Saya paham Anda akan bertanya-tanya kenapa kita harus membuat direktori dengan nama seperti di atas dan apa hubungannya sama akun Github. Saya pun memiliki pertanyaan yang sama. Lalu saya melakukan eksperimen, dan hasil akhirnya saya temukan bahwa sebenarnya tidak perlu membuat direktori seperti di atas untuk tahap belajar. Berikut ini eksperimen saya:
+
+1. Buat satu file bernama variabel.go tepat di bawah direktori G:\GoWorks\.
+2. Isi dengan kode program berikut:
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	var nama string = "Amri Shodiq"
+	var umur int = 35
+	var beratbadan float64 = 70.15
+    fmt.Println(nama, umur, beratbadan)
+}
+```
+
+3. Kemudian jalankan perintah berikut
+
+```
+D:\GoWorks>go run variabel.go
+```
+
+4. Perhatikan hasilnya! Anda sudah mencoba bagaimana mendeklarasikan variabel dan menampilkannya dengan Println.
+ 
 
