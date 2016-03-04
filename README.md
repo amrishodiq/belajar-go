@@ -62,7 +62,9 @@ Saya paham Anda akan bertanya-tanya kenapa kita harus membuat direktori dengan n
 Ini adalah contoh sangat sederhana bagaimana menulis program Go. 
 5. Tapi dengan cara `go run ...` Anda tidak mendapatkan file executable. Lalu bagaimana mendapatkan file executable?
 6. Cara pertama adalah dengan mengubah parameter `run` menjadi `build`, yaitu 
-	``` D:\GoWorks>go build variable.go```
+	``` 
+	D:\GoWorks>go build variable.go
+	```
 7. Buat direktori variabel di bawah D:\GoWorks\, kemudian pindahkan file variabel.go ke dalam direktori D:\GoWorks\variabel\.
 8. Sampai saat ini Anda memiliki file D:\GoWorks\variabel\variabel.go.
 9. Compile dengan cara berikut:
