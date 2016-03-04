@@ -57,14 +57,19 @@ Saya paham Anda akan bertanya-tanya kenapa kita harus membuat direktori dengan n
 	D:\GoWorks>go run variabel.go
 	```
 
-4. Perhatikan hasilnya! Anda sudah mencoba bagaimana mendeklarasikan variabel dan menampilkannya dengan Println.
+4. Atau anda juga bisa langsung mencobanya secara online di tautan berikut: https://play.golang.org/ (atau klik tautan berikut jika anda malas untuk menyalin+tempel di halaman tersebut https://play.golang.org/p/6aQti0fQcO)
+5. Perhatikan hasilnya! Anda sudah mencoba bagaimana mendeklarasikan variabel dan menampilkannya dengan Println.
 Ini adalah contoh sangat sederhana bagaimana menulis program Go. 
-5. Tapi dengan cara 'go run ...' Anda tidak mendapatkan file executable. Lalu bagaimana mendapatkan file executable?
-6. Buat direktori variabel di bawah D:\GoWorks\, kemudian pindahkan file variabel.go ke dalam direktori D:\GoWorks\variabel\.
-7. Sampai saat ini Anda memiliki file D:\GoWorks\variabel\variabel.go.
-8. Compile dengan cara berikut:
+5. Tapi dengan cara `go run ...` Anda tidak mendapatkan file executable. Lalu bagaimana mendapatkan file executable?
+6. Cara pertama adalah dengan mengubah parameter `run` menjadi `build`, yaitu 
+	``` 
+	D:\GoWorks>go build variable.go
+	```
+7. Buat direktori variabel di bawah D:\GoWorks\, kemudian pindahkan file variabel.go ke dalam direktori D:\GoWorks\variabel\.
+8. Sampai saat ini Anda memiliki file D:\GoWorks\variabel\variabel.go.
+9. Compile dengan cara berikut:
 	```
 	D:\GoWorks>go install variabel
 	```
-9. Sampai tahap ini, Anda sudah dapat file D:\GoWorks\bin\variabel.exe.
+10. Sampai tahap ini, Anda sudah dapat file D:\GoWorks\bin\variabel.exe.
 
